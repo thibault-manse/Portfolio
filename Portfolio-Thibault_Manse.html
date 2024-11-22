@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-p.css">
+        <title>Thibault Manse</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav><a href="#about_me">About me</a></nav>
+            <nav><a href="#project">Project</a></nav>
+            <nav><a href="#contact">Contact</a></nav>
+        </header>
+        <section class="banderol">
+            <h1>Thibault Manse</h1>
+            <h4>Student - aspiring software / website developer</h4>
+            <nav id="link-nav">
+                <a href="https://github.com/thibault-manse"><img src="image/github.png" alt="github" class="icon-link1"></a>
+                <a href="https://www.linkedin.com/in/thibault-manse-0aaa56328/"><img src="image/linkedin.png" alt="linkedin" class="icon-link2"></a>
+            </nav>
+        </section>
+        <section class="body-site">
+            <section id="about_me">
+                <img src="image/image1.png" alt="homme pixel disant bonjour" class="image2">
+                <article class ="content-text">
+                    <h3>About me</h3>
+                    <p>Etudiant dans une école d'informatique, j'ai pour projet professionel de travailler dans le milieu du jeux vidéo ou de l'animation 2D/3D.<br>
+                        Cherchant à toujours m'ameliorer, je suis prêt à relever tout les defis et à repousser les limites de mes competences. <br>
+                        Je suis une personne créative, qui a toujours plusieurs idées ou créations en tête, que ce sois des personnages, univers ou concept.<br>
+                        J'ai suivi de nombreuses formations depuis ces dernieres années, j'ai effectué un BTS en système numérique, effectué une école
+                        en ligne afin de devenir chef de projet digital marketing en gaming et e-sport, j'ai effectué la piscine de l'école 42
+                        et maintenant je suis étudiant dans l'école "La Plateforme", situé à Marseille.<br>
+                        J'ai acquis de nombreuses compétences ses dernieres années et j'ai pu toucher à beaucoup de chose en rapport avec l'informatique. 
+                        En terme de code j'ai touché au HTML, CSS, C, C++ et Python. J'ai aussi quelques connaissances en SQL et en réseaux.<br>
+                        Je suis aussi quelqu'un qui s'interesse au montage vidéo et au dessin, afin d'exprimer ma créativité.
+                    </p>
+                </article>
+            </section>
+            <section id="project">
+                <h3>Project</h3>
+                <article class="my-project">
+                    <img src="image/b4sket.jpg" alt="projet b4sket" class="image">
+                    <section>
+                        <h4>B4sket</h4>
+                        <p>Description : Un jeux de puissance 4 en basket afin d'apprendre au jeune a faire des paniers de maniere ludique</p>
+                        <p>Equipe de 4 personnes - Dévelopeur arduino</p>
+                        <p>Competence utiliser : Langage C machine, electronique et collaboration entre membre de l'équipe</p>
+                    </section>
+                </article>
+                <article class="my-project">
+                    <img src="image/Leviathan.png" alt="Site Leviathan" class="image">
+                    <section>
+                        <h4>Leviathan</h4>
+                        <p>Description : Site présentant le webcomic Léviathan avec un cahier de charge demandant une partie réssumé, presentation des 
+                            personnage/auteur/dessinateur et une partie contact</p>
+                        <p>Effectué en individuel</p>
+                        <p>Competence utiliser : HTML, CSS, PHP, SQL</p>
+                    </section>
+                </article>
+                <article class="my-project">
+                    <img src="image/Eclipse-melodie.png" alt="projet fan site" class="image">
+                    <section>
+                        <h4>Eclipse-melodie</h4>
+                        <p>Description : Fansite sur 4 chanteur/groupe : Sawano Hiroyuki, Lil Peep, Shiro Sagisu et DaftPunk</p>
+                        <p>Equipe de 4 personnes : une personne pour chaque page du site</p>
+                        <p>Competence utiliser : HTML, CSS, Git</p>
+                    </section>
+                </article>
+                <article class="my-project">
+                    <img src="image/Fanart.png" alt="fanart Narmaya" class="image2">
+                    <section>
+                        <h4>Fanart</h4>
+                        <p>Description : Exemple de fanart - Narmaya</p>
+                        <p>Date : 16/09/2022</p>
+                    </section>
+                    <img src="image/image2.png" alt="Gran" class="image3">
+                </article>
+            </section>
+            <section>
+                <section id="contact">
+                    <img src="image/image3.png" alt="Light Yagami" class="image2">
+                    <div class="contactbox">
+                        <h3>Contact</h3>
+                        <form action="Contact" method="POST">
+                            <label for="Nom"> <p>Nom :</p>
+                                <input name="first_name" required>
+                            </label><br>
+                            <label for="Prenom"> <p>Prenom :</p>
+                            <input name="second_name" required>
+                            </label><br>
+                            <label for="Adresse"> <p>Adresse :</p>
+                                <input name="adress" required>
+                            </label><br>
+                            <label for="Message"> <p>Votre message :</p></label><br>
+                            <textarea id="message" name="message" rows="5"></textarea><br>
+                            <button type="submit">Envoyer</button>
+                        </form>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <footer></footer>
+    </body>
+</html>
